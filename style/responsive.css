@@ -1,0 +1,422 @@
+@media  screen and (max-width:1350px) {
+    .banner-title{
+        color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 65px;
+    line-height: 50px;
+   
+    }
+    .banner-image{
+        margin-left: 200px;
+ 
+    }
+    .banner-content{
+        width: 250%;
+        
+    }
+    .banner-description{
+        margin-top: 55px;
+        margin-bottom: 50px;
+}
+
+
+    .run-content-title{
+        margin-left: 1px;
+        font-size: 35px;
+    }
+    .run-content-description{
+        margin-left: 1px;
+        font-size: 16px;
+}
+   .btn-banner-3{
+    margin-left: 1px;
+}  
+   .run-image img{
+    width: 310px;
+    height: 309px;
+    margin-left: 80px;
+}
+
+/* meet out trainer part */
+.meet-our-team-picture{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+   background: rgba(255, 255, 255, 0.1);
+   margin-left: 55px;
+   }
+   .gym-trainer-image img{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+    margin-left: 15px;
+ 
+}
+.name-container-1{
+    position: absolute;
+    top: 65%;
+    left: 12%;
+   
+ }
+
+}
+
+@media  screen and (max-width:992px) {
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .nav-item{
+        margin-top: -28px;
+    }
+    .nav-logo{
+        margin-top: 10px;
+    }
+    .banner{
+        display: grid;
+       grid-template-columns: 1fr ;
+    }
+    .banner-image{
+        margin-left: 8px;
+    }
+    
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .run-container{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 85%;
+        margin: 0 auto;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 15px;
+    }
+    .run-image img{
+        width: 310px;
+        height: 309px;
+        margin-left: 60px;
+    }
+    .run-content-title{
+        margin-left: 1px;
+        font-size: 25px;
+    }
+    .btn-banner-3{
+        margin-left: 1px;
+    }
+    .run-content-description{
+        margin-left: 1px;
+        font-size: 12px;
+    }
+/* 
+    meet our team */
+    .meet-our-team-picture{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 130%;
+        margin: 0 auto;
+        border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       margin-left: 35px;
+       }
+       .gym-trainer-image img{
+        width: 220px;
+        height: 220px;
+        padding: 10px;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.2),url(image);
+        margin-left: 15px;
+     
+    }
+    .name-container-1{
+        position: absolute;
+        top: 65%;
+        left: 12%;
+       
+     }
+     .tranings-part{
+        display: none;
+     }
+    
+}
+
+@media  screen and (max-width:576px) {
+    .body{
+        
+    }
+    
+    .ham-burger{
+        color: white;
+        display: block;
+        margin-top: -15px;
+    }
+        .nav-bar{
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+
+
+    .nav-item{
+        display: none;
+    }
+    .banner{
+        display: grid;
+       grid-template-columns: 1fr ;
+    }
+    .banner-image{
+       margin-left: -150px;
+    }
+    .banner-title{
+        font-size: 30px;
+        margin-top: 15px;
+        margin-left: -25px;
+        line-height: 40px;
+       
+    }
+    .btn-banner-1{
+        margin-left: -25px;
+    }
+    .banner-description{
+        font-size: 11.5px;
+        margin-top: 5px;
+        margin-left: -25px;
+    }
+  /* tricky part banner */
+
+  .tricky-part{
+    top: 46.5%;
+    left: 36%;
+  }
+  .tricky-part-2{
+    top: 15%;
+    left: 72%;
+  }
+    /* run part :no-button */
+   .btn-banner-3{
+       width: 250px;
+       font-weight: 900;
+   }      
+ 
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .run-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .run-content{
+          text-align: start;
+    }
+    .run-content-title{
+        margin-left: 15px;
+    }
+    .run-content-description{
+        margin-left: 15px;
+    }
+    .btn-banner-3{
+        margin-left: 15px;
+        width: 280px;
+    }
+    .run-image img{
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 90%;
+    }
+
+    /* meet outr part */
+    .meet-our-team-section{
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .meet-out-team-description{
+      
+        font-size: 13px;
+        margin-top: -5px;
+        margin-left: 45px;
+    }
+    .meet-our-team{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* max-width: 95%; */
+        /* margin: 0 auto; */
+        border-radius: 15px;
+       background: rgba(255, 255, 255, 0.1);
+       margin-left: 25px;
+       margin-right: 15px;
+    
+}
+  .gym-trainer-image img{
+    margin-left: 11px;
+  }
+  .gym-description{
+    font-size: 17px;
+    opacity: .8;
+  }
+  .name-container-1{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+   
+}
+  .footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer-description{
+    font-size: 15px;
+
+
+}
+.footer-getting-part{
+    display: grid;
+    grid-template-columns: 1fr;
+   margin-left: -95px;
+}
+/* bonus part */
+   .bonus-content-des{
+    text-align: center;
+   }
+ /* optional part */
+ .traning-image-container{
+    /* max-width: 85%;
+    margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 50% 50% ;
+
+ }
+
+ .traning-image-container-2{
+    display: grid;
+    grid-template-columns:  50% 50%;
+    margin-top: -54px;
+    
+}
+.block-image{
+    display: none;
+
+}
+.traning-title{
+    font-size: 30px;
+}
+.traning-description{
+    font-size: 14px;
+}
+.pic-title-33{
+    display: none;
+}
+.pic-title-66{
+    display: none;
+}
+.pic-title-11{
+    top: 310%;
+    left: 12%;
+    display: none;
+}
+.pic-title-22{
+    top: 305%;
+    left: 52%;
+    display: none;
+}
+.pic-title-44{
+    top: 319%;
+    left: 12%;
+    display: none;
+}
+.pic-title-55{
+    top: 319%;
+    left: 52%;
+    display: none;
+}
+/* bmi part */
+.Bmi-container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.bmi-calculator{
+    
+}
+.bmi-chart{
+   
+}
+.bonus-content-title-2{
+    text-align: left;
+    margin-left: -15px;
+}
+.bonus-content-des{
+    margin-left: -19px;
+}
+.table{
+    margin-left: -13px;
+    width: 370px;
+   
+}
+.package{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.gym-packagce-title{
+    font-size: 30px;
+    margin-top: -8px;
+}
+.package-dess{
+  font-size: 12px;
+}
+
+.get-started-2{
+   
+    
+}
+
+.start-title-2{
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.start-menu-2{
+    padding: 5px;
+    font-size: 12px;
+}
+.bonus-content-des{
+    font-size: 14px;
+    width: 390px;
+}
+.calculte-chart{
+    width: 390px;
+    margin-left: -15px;
+}
+.input-group-1,.input-group-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.input-box{
+    width: 160px;
+    padding: 10px;
+    margin: 5px;
+}
+#id-1{
+    width: 180px;
+}
+#id-2{
+    width: 374px;
+}
+}

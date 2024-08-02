@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+*body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-family: "Playwrite CZ", cursive;
+    
+    
+
+   
+}
+.body{ 
+   background-color: black ;
+   margin: 0;
+   max-width: 100%;
+   
+   
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, .195) 100%);
+}    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+   
+}
+.nav-logo{
+    
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+font-style: italic;
+}
+.nav-item{
+    color: white;
+    display: flex;
+    gap: 25px; 
+    align-items: center;
+    margin-top: 25px;  
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 32px;
+    border-radius: 15px;
+    width: 330px;
+}
+    
+   
+
+
+.home{
+    border-radius: 26px;
+    background: rgb(230, 83, 60);
+    color: white;
+    width: 70px;
+    text-align: center;
+    padding: 6px;
+    
+   
+}    
+
+/* banner part style */
+
+
+.banner{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 85%;
+    margin: 0 auto;
+   
+    
+}
+.banner-content{
+   
+    margin-top: 45px;    
+   
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 58px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.span-style{
+    font-family: "Playwrite CZ", cursive;}
+
+.banner-image{
+  margin-left: 150px;
+  position: relative;
+    
+}
+.image{
+    margin-left: 210px;
+    margin-top: 50px;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.btn-banner-1{
+    width: 160px;
+    height: 45px;
+    background: rgb(230, 83, 60);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+
+}
+.btn-banner-2{
+    width: 160px;
+    height: 45px;  
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    background: black;
+    border: 1px solid white;
+
+}
+
+/* tricky part banner */
+.tricky-part{
+   
+    width: 150px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    
+
+    
+}
+.tricky-part-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px; 
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.tricky-part-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -8px;
+}
+.tricky-part-des{
+    color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1px;
+ margin-top: -23px;
+ text-align: center;
+ margin-left: -8px;
+}
+
+.circle{
+    border: 1px solid rgba(255, 96, 33, 0.932);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    margin: 32px 0px 25px 10px;
+}
+.content-part{
+   margin-left: -18px;
+  
+}
+
+.tricky-part-2{
+    background: rgb(255, 255, 255,0.2);
+    width: 140px;
+    ckdrop-filter: blur(5px);  
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.ham-burger{
+    color: white;
+    display: none;
+}
+
+
+/* change-habbit-container style */
+.change-habbit-container{
+
+   
+}
+.change-habbit-content{
+       margin-top: 50px; 
+     
+}
+.change-habbit-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center
+   
+}
+.change-habbit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    
+}
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 45px;
+    max-width: 85%;
+    margin: 0 auto;
+   
+}
+.image-container{
+   
+    text-align: center;
+    
+}
+.image-container img{
+    border-radius: 50%;
+}
+ 
+.gym-name{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 8px;
+}
+.gym-description{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+margin-top: -5px;
+
+}
+
+/* run-content style */
+.run-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 15px;
+}
+
+.run-content{
+ 
+
+ 
+}
+.run-content-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-left: 70px;
+    
+}
+.run-content-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-left: 70px;
+}
+.run-image img{
+    width: 366px;
+    height: 312px;
+    margin-left: 380px;
+    border-radius: 13px;
+
+}
+.btn-banner-3{
+    width: 140px;
+    height: 45px;
+    background: rgb(230, 83, 60);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+/* optional part */
+.tranings-part{
+   
+    max-width: 85%;
+    margin: 0 auto;
+}
+.traning-content{
+    text-align: center;
+}
+.traning-title{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: white;
+}
+.traning-description{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -15px;
+    color: white;
+}
+.traning-image-container{
+    /* max-width: 85%;
+    margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    
+}
+
+.first-row-11 img{
+    height: 60%;
+    width: 100%;
+    position: relative;
+
+}
+.pic-title-11 {
+    position: absolute;
+    font-size: 16px;
+    top: 196%;
+    left: 9%;
+    color: white;
+    font-weight: bold;
+       /* ok */
+}
+.pic-title-33{
+    position: absolute;
+    font-size: 16px;
+    top: 196%;
+    left: 73%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+ 
+}
+
+.pic-title-22{
+    position: absolute;
+    font-size: 16px;
+    top: 176%;
+    color: white;
+    font-weight: bold;
+    left: 30%;
+     /* ok */
+}
+/* .pic-title-33 {
+    position: absolute;
+    font-size: 16px;
+    top: 23%;
+    left: 69%;
+    color: white;
+    font-weight: bold;
+} */
+.first-row-22 img{
+    height: 60%;
+    width: 100%;
+    position: relative;
+  
+}
+.pic-title-44{
+    position: absolute;
+    top: 203%;
+    left: 30%;
+    color: white;
+}
+.pic-title-55{
+    position: absolute;
+    top:220%;
+    left: 44%;
+    color: white;
+}
+.pic-title-66{
+    position: absolute;
+    top:220%;
+    left: 66%;
+    color: rgba(0, 0, 0, 0.966);
+}
+.traning-image-container-2{
+    /* max-width: 85%;
+    margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 42% 25% 33%;
+    margin-top: -169px;
+}  
+
+/* 
+ bonus part */
+ .bonus-part-container{
+ }
+.bonus-content{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.bonus-content-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center
+}
+.bonus-content-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+   
+
+}
+
+.Bmi-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    max-width: 85%;
+    margin: 0 auto;
+  
+}
+  
+    
+
+.bmi-part{
+    background: rgb(34, 34, 34);
+    margin-bottom: 15px;
+}
+
+.table{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 80px;
+
+
+}
+.get-started-2{
+ text-align: center;
+}
+.start-title-2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+border: 1px solid gray;
+margin: 0;
+padding: 12px;
+}
+.start-menu-2{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    border: 1px solid gray;
+    margin: 0;
+    padding: 12px;
+}
+
+.bonus-content-title-2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.calculte-chart{
+   
+   text-align: center;
+}
+.input-box{
+    background: rgba(255, 255, 255, 0.1);
+    
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    margin-top: 6px;
+    border: none;
+
+ 
+    
+}
+#id-1{
+    color: gray;
+    width: 270px;
+}
+#id-2{
+    color: gray;
+    width: 543px;
+}
+.btn-banner-4{
+    width: 140px;
+    height: 45px;
+    background: rgb(230, 83, 60);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 35px;
+
+}
+.gym-packagce-container{
+    
+    max-width: 85%;
+    margin: 0 auto;
+}
+.gym-packagce{
+    margin-top: -15px;
+    
+}
+.gym-packagce-title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.package-deatails{
+    
+   margin: 5px;
+   border: 1px solid rgb(214, 205, 205);
+   border-radius: 8px;
+   
+}
+.package-name{
+   
+}
+.gym-image img {
+    width: 100%;
+    border-radius: 8px;
+    
+}
+.package{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+.package-title{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.package-des{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    margin-top: -11px;
+}
+.package-dess{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-top: -12px;
+}
+.package-des-2{
+
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+}
+
+/* meet-our-team-section */
+
+.meet-our-team-section{
+    margin-left:-45px;
+}
+.meet-our-team-content{}
+
+.meet-our-team-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.meet-out-team-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  
+}
+
+.gym-trainer-image img{
+    width: 450px;
+    height: 340px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 15px;
+ 
+ 
+}
+
+
+
+.gym-trainer-image{
+    position: relative;
+   
+}
+.gym-trainer-image-2{
+    position: relative;
+}
+
+.name-container-1{
+   position: absolute;
+   top: 75%;
+   left: 10%;
+  
+}
+
+.meet-our-team{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ max-width: 80%;
+ margin: 0 auto;
+ border-radius: 15px;
+background: rgba(255, 255, 255, 0.1);
+}
+
+.gym-trainer-container{
+   padding: 15px;
+
+}
+
+
+
+.trainer-name{
+  color: white;
+  font-weight: 800;
+  font-family: inter;
+  font-size: 18px;
+}
+.name-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 800;
+    font-family: inter;
+    font-size: 14px;
+    margin-top: -12px;
+}
+
+/* footer part */
+.footer-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    max-width: 85%;
+    margin: 0 auto;
+
+}
+
+.footer-left-side{
+
+}
+
+.footer-title{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.footer-getting-part{
+    display: grid;
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+
+}
+.get-started{
+   margin-top: 34px;
+   margin-left: 95px;
+  
+  
+}
+.start-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.start-menu{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+   
+}
+
+.start-menu{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+}
+hr{
+    margin: 0 auto;
+    max-width: 85%;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.last-part{
+    max-width: 70%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+}
