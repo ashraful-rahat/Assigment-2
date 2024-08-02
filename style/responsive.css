@@ -167,6 +167,7 @@
         .nav-bar{
             flex-direction: row;
             justify-content: space-between;
+         
             
         }
 
@@ -177,15 +178,19 @@
     .banner{
         display: grid;
        grid-template-columns: 1fr ;
+       
     }
     .banner-image{
-       margin-left: -150px;
+       margin-left: -170px;
+       
     }
     .banner-title{
         font-size: 30px;
         margin-top: 15px;
         margin-left: -25px;
         line-height: 40px;
+        width: 380px;
+
        
     }
     .btn-banner-1{
@@ -195,16 +200,18 @@
         font-size: 11.5px;
         margin-top: 5px;
         margin-left: -25px;
+       
+        width: 400px;
     }
   /* tricky part banner */
 
   .tricky-part{
     top: 46.5%;
-    left: 36%;
+    left: 30%;
   }
   .tricky-part-2{
     top: 15%;
-    left: 72%;
+    left: 65%;
   }
     /* run part :no-button */
    .btn-banner-3{
@@ -227,9 +234,11 @@
     }
     .run-content-title{
         margin-left: 15px;
+       
     }
     .run-content-description{
         margin-left: 15px;
+        
     }
     .btn-banner-3{
         margin-left: 15px;
@@ -251,6 +260,7 @@
         font-size: 13px;
         margin-top: -5px;
         margin-left: 45px;
+     
     }
     .meet-our-team{
         display: grid;
@@ -398,6 +408,7 @@
 .bonus-content-des{
     font-size: 14px;
     width: 390px;
+   
 }
 .calculte-chart{
     width: 390px;
