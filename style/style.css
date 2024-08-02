@@ -15,6 +15,7 @@
    background-color: black ;
    margin: 0;
    max-width: 100%;
+   padding: 0px;
    
    
 .header{
@@ -38,7 +39,6 @@ font-weight: 800;
 line-height: 120%;
 letter-spacing: 0%;
 font-style: italic;
-
 }
 .nav-item{
     color: white;
@@ -70,9 +70,7 @@ font-style: italic;
 }    
 
 /* banner part style */
-section{
-    
-}
+
 
 .banner{
    
@@ -80,17 +78,14 @@ section{
     grid-template-columns: 1fr 1fr;
     max-width: 85%;
     margin: 0 auto;
-    
+  
     
 }
-/* .banner-content{
+.banner-content{
    
     margin-top: 45px;    
-    width: 400px;
-    border: 2px solid red;
-    width: 200px;
    
-} */
+}
 .banner-title{
     color: rgb(255, 255, 255);
 font-family: Inter;

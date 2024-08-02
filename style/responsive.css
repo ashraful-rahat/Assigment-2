@@ -203,6 +203,9 @@
        
         width: 400px;
     }
+    .banner-content{
+        width: 400px;
+    }
   /* tricky part banner */
 
   .tricky-part{
@@ -265,13 +268,20 @@
     .meet-our-team{
         display: grid;
         grid-template-columns: 1fr;
-        /* max-width: 95%; */
-        /* margin: 0 auto; */
+        max-width: 95%; 
+         margin: 0 auto; 
         border-radius: 15px;
        background: rgba(255, 255, 255, 0.1);
-       margin-left: 25px;
-       margin-right: 15px;
+       margin-left: 35px;
+       margin-right: 60px;
     
+      
+    
+}
+.gym-trainer-container{
+ 
+    padding: 1px;
+    margin-left: 2px;
 }
   .gym-trainer-image img{
     margin-left: 11px;
